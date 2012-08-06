@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D1987015D05D720061409C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1986F15D05D720061409C /* Cocoa.framework */; };
+		35D1987A15D05D720061409C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35D1987815D05D720061409C /* InfoPlist.strings */; };
+		35D1987C15D05D720061409C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1987B15D05D720061409C /* main.m */; };
+		35D1988015D05D720061409C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 35D1987E15D05D720061409C /* Credits.rtf */; };
+		35D1988315D05D720061409C /* WebViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1988215D05D720061409C /* WebViewAppDelegate.m */; };
+		35D1988615D05D720061409C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D1988415D05D720061409C /* MainMenu.xib */; };
+		35D1988915D05D720061409C /* Noark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35D1988715D05D720061409C /* Noark.xcdatamodeld */; };
+		35D1989115D05D730061409C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1989015D05D730061409C /* SenTestingKit.framework */; };
+		35D1989215D05D730061409C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1986F15D05D720061409C /* Cocoa.framework */; };
+		35D1989A15D05D730061409C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35D1989815D05D730061409C /* InfoPlist.strings */; };
+		35D1989D15D05D730061409C /* NoarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1989C15D05D730061409C /* NoarkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35D1989315D05D730061409C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D1986215D05D720061409C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35D1986A15D05D720061409C;
+			remoteInfo = Noark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35D1986B15D05D720061409C /* Noark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D1986F15D05D720061409C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		35D1987215D05D720061409C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		35D1987315D05D720061409C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		35D1987415D05D720061409C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35D1987715D05D720061409C /* Noark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Noark-Info.plist"; sourceTree = "<group>"; };
+		35D1987915D05D720061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35D1987B15D05D720061409C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35D1987D15D05D720061409C /* Noark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noark-Prefix.pch"; sourceTree = "<group>"; };
+		35D1987F15D05D720061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		35D1988115D05D720061409C /* WebViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewAppDelegate.h; sourceTree = "<group>"; };
+		35D1988215D05D720061409C /* WebViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewAppDelegate.m; sourceTree = "<group>"; };
+		35D1988515D05D720061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		35D1988815D05D720061409C /* Noark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noark.xcdatamodel; sourceTree = "<group>"; };
+		35D1988F15D05D730061409C /* NoarkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoarkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D1989015D05D730061409C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		35D1989715D05D730061409C /* NoarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoarkTests-Info.plist"; sourceTree = "<group>"; };
+		35D1989915D05D730061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35D1989B15D05D730061409C /* NoarkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoarkTests.h; sourceTree = "<group>"; };
+		35D1989C15D05D730061409C /* NoarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoarkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35D1986815D05D720061409C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1987015D05D720061409C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D1988B15D05D730061409C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1989115D05D730061409C /* SenTestingKit.framework in Frameworks */,
+				35D1989215D05D730061409C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35D1986015D05D720061409C = {
+			isa = PBXGroup;
+			children = (
+				35D1987515D05D720061409C /* Noark */,
+				35D1989515D05D730061409C /* NoarkTests */,
+				35D1986E15D05D720061409C /* Frameworks */,
+				35D1986C15D05D720061409C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35D1986C15D05D720061409C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35D1986B15D05D720061409C /* Noark.app */,
+				35D1988F15D05D730061409C /* NoarkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D1986E15D05D720061409C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D1986F15D05D720061409C /* Cocoa.framework */,
+				35D1989015D05D730061409C /* SenTestingKit.framework */,
+				35D1987115D05D720061409C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35D1987115D05D720061409C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D1987215D05D720061409C /* AppKit.framework */,
+				35D1987315D05D720061409C /* CoreData.framework */,
+				35D1987415D05D720061409C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		35D1987515D05D720061409C /* Noark */ = {
+			isa = PBXGroup;
+			children = (
+				35D1988115D05D720061409C /* WebViewAppDelegate.h */,
+				35D1988215D05D720061409C /* WebViewAppDelegate.m */,
+				35D1988415D05D720061409C /* MainMenu.xib */,
+				35D1988715D05D720061409C /* Noark.xcdatamodeld */,
+				35D1987615D05D720061409C /* Supporting Files */,
+			);
+			path = Noark;
+			sourceTree = "<group>";
+		};
+		35D1987615D05D720061409C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35D1987715D05D720061409C /* Noark-Info.plist */,
+				35D1987815D05D720061409C /* InfoPlist.strings */,
+				35D1987B15D05D720061409C /* main.m */,
+				35D1987D15D05D720061409C /* Noark-Prefix.pch */,
+				35D1987E15D05D720061409C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35D1989515D05D730061409C /* NoarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				35D1989B15D05D730061409C /* NoarkTests.h */,
+				35D1989C15D05D730061409C /* NoarkTests.m */,
+				35D1989615D05D730061409C /* Supporting Files */,
+			);
+			path = NoarkTests;
+			sourceTree = "<group>";
+		};
+		35D1989615D05D730061409C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35D1989715D05D730061409C /* NoarkTests-Info.plist */,
+				35D1989815D05D730061409C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35D1986A15D05D720061409C /* Noark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D198A015D05D730061409C /* Build configuration list for PBXNativeTarget "Noark" */;
+			buildPhases = (
+				35D1986715D05D720061409C /* Sources */,
+				35D1986815D05D720061409C /* Frameworks */,
+				35D1986915D05D720061409C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noark;
+			productName = Noark;
+			productReference = 35D1986B15D05D720061409C /* Noark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35D1988E15D05D730061409C /* NoarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D198A315D05D730061409C /* Build configuration list for PBXNativeTarget "NoarkTests" */;
+			buildPhases = (
+				35D1988A15D05D730061409C /* Sources */,
+				35D1988B15D05D730061409C /* Frameworks */,
+				35D1988C15D05D730061409C /* Resources */,
+				35D1988D15D05D730061409C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35D1989415D05D730061409C /* PBXTargetDependency */,
+			);
+			name = NoarkTests;
+			productName = NoarkTests;
+			productReference = 35D1988F15D05D730061409C /* NoarkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35D1986215D05D720061409C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WebView;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Fredrik Forsmo";
+			};
+			buildConfigurationList = 35D1986515D05D720061409C /* Build configuration list for PBXProject "Noark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35D1986015D05D720061409C;
+			productRefGroup = 35D1986C15D05D720061409C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35D1986A15D05D720061409C /* Noark */,
+				35D1988E15D05D730061409C /* NoarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D1986915D05D720061409C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1987A15D05D720061409C /* InfoPlist.strings in Resources */,
+				35D1988015D05D720061409C /* Credits.rtf in Resources */,
+				35D1988615D05D720061409C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D1988C15D05D730061409C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1989A15D05D730061409C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35D1988D15D05D730061409C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35D1986715D05D720061409C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1987C15D05D720061409C /* main.m in Sources */,
+				35D1988315D05D720061409C /* WebViewAppDelegate.m in Sources */,
+				35D1988915D05D720061409C /* Noark.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D1988A15D05D730061409C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D1989D15D05D730061409C /* NoarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35D1989415D05D730061409C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35D1986A15D05D720061409C /* Noark */;
+			targetProxy = 35D1989315D05D730061409C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35D1987815D05D720061409C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D1987915D05D720061409C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35D1987E15D05D720061409C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D1987F15D05D720061409C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		35D1988415D05D720061409C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D1988515D05D720061409C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		35D1989815D05D730061409C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D1989915D05D730061409C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35D1989E15D05D730061409C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		35D1989F15D05D730061409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		35D198A115D05D730061409C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
+				INFOPLIST_FILE = "Noark/Noark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35D198A215D05D730061409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
+				INFOPLIST_FILE = "Noark/Noark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35D198A415D05D730061409C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Noark.app/Contents/MacOS/Noark";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
+				INFOPLIST_FILE = "NoarkTests/NoarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		35D198A515D05D730061409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Noark.app/Contents/MacOS/Noark";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
+				INFOPLIST_FILE = "NoarkTests/NoarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35D1986515D05D720061409C /* Build configuration list for PBXProject "Noark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D1989E15D05D730061409C /* Debug */,
+				35D1989F15D05D730061409C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D198A015D05D730061409C /* Build configuration list for PBXNativeTarget "Noark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D198A115D05D730061409C /* Debug */,
+				35D198A215D05D730061409C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35D198A315D05D730061409C /* Build configuration list for PBXNativeTarget "NoarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D198A415D05D730061409C /* Debug */,
+				35D198A515D05D730061409C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35D1988715D05D720061409C /* Noark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35D1988815D05D720061409C /* Noark.xcdatamodel */,
+			);
+			currentVersion = 35D1988815D05D720061409C /* Noark.xcdatamodel */;
+			path = Noark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35D1986215D05D720061409C /* Project object */;
+}
