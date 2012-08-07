@@ -1,5 +1,5 @@
 //
-//  WebViewAppDelegate.m
+//  AppDelegate.m
 //  Noark
 //
 //  Created by Fredrik Forsmo on 2012-08-06.
