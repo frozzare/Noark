@@ -46,7 +46,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		351890F515D16CA700DD3E56 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "../../../../Users/Fredrik/Downloads/Growl-1.3.1-SDK/Framework/Growl.framework"; sourceTree = "<group>"; };
 		351890FF15D173F500DD3E56 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 		3518910415D176F800DD3E56 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Noark/Growl.framework; sourceTree = "<group>"; };
 		35C30CA215D064AD00BAFBA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,7 +92,6 @@
 		35D1986015D05D720061409C = {
 			isa = PBXGroup;
 			children = (
-				3518910415D176F800DD3E56 /* Growl.framework */,
 				35D1986E15D05D720061409C /* Frameworks */,
 				35D1987515D05D720061409C /* Noark */,
 				35D1986C15D05D720061409C /* Products */,
@@ -112,7 +110,7 @@
 		35D1986E15D05D720061409C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				351890F515D16CA700DD3E56 /* Growl.framework */,
+				3518910415D176F800DD3E56 /* Growl.framework */,
 				35D198A615D05DE80061409C /* WebKit.framework */,
 				35D1986F15D05D720061409C /* Cocoa.framework */,
 				35D1987115D05D720061409C /* Other Frameworks */,
@@ -374,7 +372,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../Users/Fredrik/Downloads/Growl-1.3.1-SDK/Framework\"",
 					"\"$(SRCROOT)/Noark\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -392,7 +389,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../Users/Fredrik/Downloads/Growl-1.3.1-SDK/Framework\"",
 					"\"$(SRCROOT)/Noark\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
