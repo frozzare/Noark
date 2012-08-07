@@ -22,7 +22,7 @@
 
 - (void)awakeFromNib {
     WebPreferences* prefs = [WebPreferences standardPreferences];
-	[prefs _setLocalStorageDatabasePath:@"~/Library/Application Support/Noark"];
+    [prefs _setLocalStorageDatabasePath:@"~/Library/Application Support/Noark"];
     [prefs setLocalStorageEnabled:YES];
     
     [webView setPreferences:prefs];

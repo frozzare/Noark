@@ -14,7 +14,6 @@
 		35D1987C15D05D720061409C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1987B15D05D720061409C /* main.m */; };
 		35D1988615D05D720061409C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D1988415D05D720061409C /* MainMenu.xib */; };
 		35D1988915D05D720061409C /* Noark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35D1988715D05D720061409C /* Noark.xcdatamodeld */; };
-		35D1989115D05D730061409C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1989015D05D730061409C /* SenTestingKit.framework */; };
 		35D1989215D05D730061409C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1986F15D05D720061409C /* Cocoa.framework */; };
 		35D198A715D05DE80061409C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D198A615D05DE80061409C /* WebKit.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +45,6 @@
 		35D1988515D05D720061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		35D1988815D05D720061409C /* Noark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noark.xcdatamodel; sourceTree = "<group>"; };
 		35D1988F15D05D730061409C /* NoarkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoarkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35D1989015D05D730061409C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		35D198A615D05DE80061409C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D1989115D05D730061409C /* SenTestingKit.framework in Frameworks */,
 				35D1989215D05D730061409C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,7 +92,6 @@
 			children = (
 				35D198A615D05DE80061409C /* WebKit.framework */,
 				35D1986F15D05D720061409C /* Cocoa.framework */,
-				35D1989015D05D730061409C /* SenTestingKit.framework */,
 				35D1987115D05D720061409C /* Other Frameworks */,
 			);
 			name = Frameworks;
