@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35C30CA415D064AD00BAFBA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C30CA315D064AD00BAFBA0 /* AppDelegate.m */; };
+		35C30CA715D06ED800BAFBA0 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C30CA615D06ED800BAFBA0 /* Notification.m */; };
 		35D1987015D05D720061409C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1986F15D05D720061409C /* Cocoa.framework */; };
 		35D1987A15D05D720061409C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35D1987815D05D720061409C /* InfoPlist.strings */; };
 		35D1987C15D05D720061409C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1987B15D05D720061409C /* main.m */; };
-		35D1988015D05D720061409C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 35D1987E15D05D720061409C /* Credits.rtf */; };
-		35D1988315D05D720061409C /* WebViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1988215D05D720061409C /* WebViewAppDelegate.m */; };
 		35D1988615D05D720061409C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D1988415D05D720061409C /* MainMenu.xib */; };
 		35D1988915D05D720061409C /* Noark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35D1988715D05D720061409C /* Noark.xcdatamodeld */; };
 		35D1989115D05D730061409C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1989015D05D730061409C /* SenTestingKit.framework */; };
 		35D1989215D05D730061409C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1986F15D05D720061409C /* Cocoa.framework */; };
-		35D1989A15D05D730061409C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35D1989815D05D730061409C /* InfoPlist.strings */; };
-		35D1989D15D05D730061409C /* NoarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1989C15D05D730061409C /* NoarkTests.m */; };
+		35D198A715D05DE80061409C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D198A615D05DE80061409C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35C30CA215D064AD00BAFBA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35C30CA315D064AD00BAFBA0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35C30CA515D06ED800BAFBA0 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		35C30CA615D06ED800BAFBA0 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
 		35D1986B15D05D720061409C /* Noark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D1986F15D05D720061409C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		35D1987215D05D720061409C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -40,17 +43,11 @@
 		35D1987915D05D720061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35D1987B15D05D720061409C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35D1987D15D05D720061409C /* Noark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noark-Prefix.pch"; sourceTree = "<group>"; };
-		35D1987F15D05D720061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		35D1988115D05D720061409C /* WebViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewAppDelegate.h; sourceTree = "<group>"; };
-		35D1988215D05D720061409C /* WebViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewAppDelegate.m; sourceTree = "<group>"; };
 		35D1988515D05D720061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		35D1988815D05D720061409C /* Noark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noark.xcdatamodel; sourceTree = "<group>"; };
 		35D1988F15D05D730061409C /* NoarkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoarkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D1989015D05D730061409C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		35D1989715D05D730061409C /* NoarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoarkTests-Info.plist"; sourceTree = "<group>"; };
-		35D1989915D05D730061409C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		35D1989B15D05D730061409C /* NoarkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoarkTests.h; sourceTree = "<group>"; };
-		35D1989C15D05D730061409C /* NoarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoarkTests.m; sourceTree = "<group>"; };
+		35D198A615D05DE80061409C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D198A715D05DE80061409C /* WebKit.framework in Frameworks */,
 				35D1987015D05D720061409C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,9 +75,8 @@
 		35D1986015D05D720061409C = {
 			isa = PBXGroup;
 			children = (
-				35D1987515D05D720061409C /* Noark */,
-				35D1989515D05D730061409C /* NoarkTests */,
 				35D1986E15D05D720061409C /* Frameworks */,
+				35D1987515D05D720061409C /* Noark */,
 				35D1986C15D05D720061409C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +93,7 @@
 		35D1986E15D05D720061409C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35D198A615D05DE80061409C /* WebKit.framework */,
 				35D1986F15D05D720061409C /* Cocoa.framework */,
 				35D1989015D05D730061409C /* SenTestingKit.framework */,
 				35D1987115D05D720061409C /* Other Frameworks */,
@@ -116,11 +114,13 @@
 		35D1987515D05D720061409C /* Noark */ = {
 			isa = PBXGroup;
 			children = (
-				35D1988115D05D720061409C /* WebViewAppDelegate.h */,
-				35D1988215D05D720061409C /* WebViewAppDelegate.m */,
+				35C30CA215D064AD00BAFBA0 /* AppDelegate.h */,
+				35C30CA315D064AD00BAFBA0 /* AppDelegate.m */,
 				35D1988415D05D720061409C /* MainMenu.xib */,
 				35D1988715D05D720061409C /* Noark.xcdatamodeld */,
 				35D1987615D05D720061409C /* Supporting Files */,
+				35C30CA515D06ED800BAFBA0 /* Notification.h */,
+				35C30CA615D06ED800BAFBA0 /* Notification.m */,
 			);
 			path = Noark;
 			sourceTree = "<group>";
@@ -132,26 +132,6 @@
 				35D1987815D05D720061409C /* InfoPlist.strings */,
 				35D1987B15D05D720061409C /* main.m */,
 				35D1987D15D05D720061409C /* Noark-Prefix.pch */,
-				35D1987E15D05D720061409C /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		35D1989515D05D730061409C /* NoarkTests */ = {
-			isa = PBXGroup;
-			children = (
-				35D1989B15D05D730061409C /* NoarkTests.h */,
-				35D1989C15D05D730061409C /* NoarkTests.m */,
-				35D1989615D05D730061409C /* Supporting Files */,
-			);
-			path = NoarkTests;
-			sourceTree = "<group>";
-		};
-		35D1989615D05D730061409C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				35D1989715D05D730061409C /* NoarkTests-Info.plist */,
-				35D1989815D05D730061409C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +209,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1987A15D05D720061409C /* InfoPlist.strings in Resources */,
-				35D1988015D05D720061409C /* Credits.rtf in Resources */,
 				35D1988615D05D720061409C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +217,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D1989A15D05D730061409C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1987C15D05D720061409C /* main.m in Sources */,
-				35D1988315D05D720061409C /* WebViewAppDelegate.m in Sources */,
+				35C30CA715D06ED800BAFBA0 /* Notification.m in Sources */,
 				35D1988915D05D720061409C /* Noark.xcdatamodeld in Sources */,
+				35C30CA415D064AD00BAFBA0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35D1989D15D05D730061409C /* NoarkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,28 +276,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		35D1987E15D05D720061409C /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35D1987F15D05D720061409C /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
 		35D1988415D05D720061409C /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				35D1988515D05D720061409C /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		35D1989815D05D730061409C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35D1989915D05D730061409C /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -381,6 +343,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
 				INFOPLIST_FILE = "Noark/Noark-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +356,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
 				INFOPLIST_FILE = "Noark/Noark-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +411,7 @@
 				35D198A215D05D730061409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35D198A315D05D730061409C /* Build configuration list for PBXNativeTarget "NoarkTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +420,7 @@
 				35D198A515D05D730061409C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
