@@ -4,6 +4,6 @@ Noark is simple application that embeds a WebView into a native OS X application
 
 This more a boostrap project for a native OS X application with embedded WebView.
 
-Will add Webkit Notification support later, right now Noark have a notification file that can be used to create Notification for OS X 10.8 Notification Center.
+Will add Webkit Notification support later, Noark supports Notification center and Growl for older OS X.
 
 Released under MIT License.

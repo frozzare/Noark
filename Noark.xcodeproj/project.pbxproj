@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3518910015D173F500DD3E56 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 351890FF15D173F500DD3E56 /* Growl Registration Ticket.growlRegDict */; };
+		3518910515D176F800DD3E56 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3518910415D176F800DD3E56 /* Growl.framework */; };
+		3518910615D176FF00DD3E56 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3518910415D176F800DD3E56 /* Growl.framework */; };
 		35C30CA415D064AD00BAFBA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C30CA315D064AD00BAFBA0 /* AppDelegate.m */; };
 		35C30CA715D06ED800BAFBA0 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C30CA615D06ED800BAFBA0 /* Notification.m */; };
 		35D1987015D05D720061409C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1986F15D05D720061409C /* Cocoa.framework */; };
@@ -28,7 +31,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3518910215D1760700DD3E56 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3518910615D176FF00DD3E56 /* Growl.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		351890F515D16CA700DD3E56 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "../../../../Users/Fredrik/Downloads/Growl-1.3.1-SDK/Framework/Growl.framework"; sourceTree = "<group>"; };
+		351890FF15D173F500DD3E56 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		3518910415D176F800DD3E56 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Noark/Growl.framework; sourceTree = "<group>"; };
 		35C30CA215D064AD00BAFBA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35C30CA315D064AD00BAFBA0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35C30CA515D06ED800BAFBA0 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
@@ -53,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3518910515D176F800DD3E56 /* Growl.framework in Frameworks */,
 				35D198A715D05DE80061409C /* WebKit.framework in Frameworks */,
 				35D1987015D05D720061409C /* Cocoa.framework in Frameworks */,
 			);
@@ -72,6 +93,7 @@
 		35D1986015D05D720061409C = {
 			isa = PBXGroup;
 			children = (
+				3518910415D176F800DD3E56 /* Growl.framework */,
 				35D1986E15D05D720061409C /* Frameworks */,
 				35D1987515D05D720061409C /* Noark */,
 				35D1986C15D05D720061409C /* Products */,
@@ -90,6 +112,7 @@
 		35D1986E15D05D720061409C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				351890F515D16CA700DD3E56 /* Growl.framework */,
 				35D198A615D05DE80061409C /* WebKit.framework */,
 				35D1986F15D05D720061409C /* Cocoa.framework */,
 				35D1987115D05D720061409C /* Other Frameworks */,
@@ -117,6 +140,7 @@
 				35D1987615D05D720061409C /* Supporting Files */,
 				35C30CA515D06ED800BAFBA0 /* Notification.h */,
 				35C30CA615D06ED800BAFBA0 /* Notification.m */,
+				351890FF15D173F500DD3E56 /* Growl Registration Ticket.growlRegDict */,
 			);
 			path = Noark;
 			sourceTree = "<group>";
@@ -134,6 +158,16 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3518910115D1748600DD3E56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		35D1986A15D05D720061409C /* Noark */ = {
 			isa = PBXNativeTarget;
@@ -142,6 +176,8 @@
 				35D1986715D05D720061409C /* Sources */,
 				35D1986815D05D720061409C /* Frameworks */,
 				35D1986915D05D720061409C /* Resources */,
+				3518910115D1748600DD3E56 /* Headers */,
+				3518910215D1760700DD3E56 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +241,7 @@
 			files = (
 				35D1987A15D05D720061409C /* InfoPlist.strings in Resources */,
 				35D1988615D05D720061409C /* MainMenu.xib in Resources */,
+				3518910015D173F500DD3E56 /* Growl Registration Ticket.growlRegDict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +372,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Users/Fredrik/Downloads/Growl-1.3.1-SDK/Framework\"",
+					"\"$(SRCROOT)/Noark\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
 				INFOPLIST_FILE = "Noark/Noark-Info.plist";
@@ -348,6 +390,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Users/Fredrik/Downloads/Growl-1.3.1-SDK/Framework\"",
+					"\"$(SRCROOT)/Noark\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noark/Noark-Prefix.pch";
 				INFOPLIST_FILE = "Noark/Noark-Info.plist";

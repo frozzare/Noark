@@ -35,9 +35,11 @@
     [webView setGroupName:@"Noark"];
     [webView setMainFrameURL:@"http://forsmo.me"];
     
-    // 10.8 Notification
-    // Will have to create a fallback for Growl later.
+    // Notification, will use Notification for OS X 10.8 and Growl for older OS X.
     // note = [[Notification alloc] init];
+    // [note setNote:@"Noark" :@"Message"];
+    // [note show];
+    
     
     // Will show a warning, but works.
     // This will close the app when you close the window witch I think is great when you do a
