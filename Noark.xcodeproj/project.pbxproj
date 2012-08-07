@@ -181,7 +181,6 @@
 		35D1986215D05D720061409C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = WebView;
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Fredrik Forsmo";
 			};
