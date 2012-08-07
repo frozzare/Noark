@@ -11,7 +11,7 @@
 #import "Notification.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
-	NSWindow __unsafe_unretained *window;
+    NSWindow __unsafe_unretained *window;
     IBOutlet WebView *webView;
     Notification *note;
 }
