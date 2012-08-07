@@ -1295,7 +1295,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{500, 186}, {948, 800}}</string>
+				<string key="NSWindowRect">{{500, 186}, {960, 800}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">Noark</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -1348,7 +1348,7 @@
 							<bool key="AllowsUndo">YES</bool>
 						</object>
 					</array>
-					<string key="NSFrameSize">{948, 800}</string>
+					<string key="NSFrameSize">{960, 800}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="617831967"/>
@@ -3108,7 +3108,7 @@
 						<int key="objectID">536</int>
 						<reference key="object" ref="617831967"/>
 						<array class="NSMutableArray" key="children">
-							<object class="IBNSLayoutConstraint" id="1046869530">
+							<object class="IBNSLayoutConstraint" id="748375224">
 								<reference key="firstItem" ref="617831967"/>
 								<int key="firstAttribute">7</int>
 								<int key="relation">0</int>
@@ -3139,7 +3139,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">555</int>
-						<reference key="object" ref="1046869530"/>
+						<reference key="object" ref="748375224"/>
 						<reference key="parent" ref="617831967"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -3296,7 +3296,7 @@
 				<string key="517.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="534.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<array key="536.IBNSViewMetadataConstraints">
-					<reference ref="1046869530"/>
+					<reference ref="748375224"/>
 				</array>
 				<boolean value="NO" key="536.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="536.IBPluginDependency">com.apple.WebKitIBPlugin</string>
