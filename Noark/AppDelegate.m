@@ -48,12 +48,12 @@
 }
 
 - (void)windowWillClose:(NSNotification *)aNotification {
-	[NSApp terminate:self];
+    [NSApp terminate:self];
 }
 
 - (void)webView:(WebView *)sender didReceiveTitle:(NSString *)title forFrame:(WebFrame *)frame {
     if (frame == [webView mainFrame]) {
-        [window setTitle: title];        
+        [window setTitle: title];
     }
 }
 
