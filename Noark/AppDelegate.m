@@ -33,6 +33,7 @@
     [webView setPolicyDelegate:self];
     [webView setUIDelegate:self];
     [webView setGroupName:@"Noark"];
+
     [webView setMainFrameURL:@"http://forsmo.me"];
     
     // Notification, will use Notification for OS X 10.8 and Growl for older OS X.

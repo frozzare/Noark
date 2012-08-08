@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3512E85F15D287860030E209 /* mac-loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3512E85E15D287860030E209 /* mac-loader.gif */; };
 		3518910015D173F500DD3E56 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 351890FF15D173F500DD3E56 /* Growl Registration Ticket.growlRegDict */; };
 		3518910515D176F800DD3E56 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3518910415D176F800DD3E56 /* Growl.framework */; };
 		3518910615D176FF00DD3E56 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3518910415D176F800DD3E56 /* Growl.framework */; };
@@ -46,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3512E85E15D287860030E209 /* mac-loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "mac-loader.gif"; path = "../../../mac-loader.gif"; sourceTree = "<group>"; };
 		351890FF15D173F500DD3E56 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 		3518910415D176F800DD3E56 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Noark/Growl.framework; sourceTree = "<group>"; };
 		35C30CA215D064AD00BAFBA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		35D1987515D05D720061409C /* Noark */ = {
 			isa = PBXGroup;
 			children = (
+				3512E85E15D287860030E209 /* mac-loader.gif */,
 				35C30CA215D064AD00BAFBA0 /* AppDelegate.h */,
 				35C30CA315D064AD00BAFBA0 /* AppDelegate.m */,
 				35D1988415D05D720061409C /* MainMenu.xib */,
@@ -240,6 +243,7 @@
 				35D1987A15D05D720061409C /* InfoPlist.strings in Resources */,
 				35D1988615D05D720061409C /* MainMenu.xib in Resources */,
 				3518910015D173F500DD3E56 /* Growl Registration Ticket.growlRegDict in Resources */,
+				3512E85F15D287860030E209 /* mac-loader.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
