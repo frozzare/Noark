@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Notification.h"
 
 @interface WebPreferences (WebPreferencesPrivate)
 - (void)_setLocalStorageDatabasePath:(NSString *)path;
