@@ -13,7 +13,6 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow __unsafe_unretained *window;
     IBOutlet WebView *webView;
-    Notification *note;
 }
 
 @property (assign) IBOutlet NSWindow *window;

@@ -13,7 +13,6 @@
     NSString *_message;
 }
 
-- (id)init;
 - (void) setNote:(NSString *)title :(NSString *)message;
 - (void) setTitle:(NSString *)title;
 - (void) setMessage:(NSString *)message;

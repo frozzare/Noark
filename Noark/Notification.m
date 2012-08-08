@@ -12,11 +12,6 @@
 
 @implementation Notification
 
-
-- (id) init {
-    return self;
-}
-
 - (void) setNote:(NSString *)title :(NSString *)message {
     _title = title;
     _message = message;
@@ -33,11 +28,13 @@
 - (void) show {
     // Notification Center OS X 10.8
     if (NSClassFromString(@"NSUserNotification")) {
-        NSUserNotification *note = [NSUserNotification new];
-        note.deliveryDate = [NSDate date];
-        note.title = _title;
-        note.informativeText = _message;
-        [[NSUserNotificationCenter defaultUserNotificationCenter] scheduleNotification: note];
+        NSUserNotification *notification = [[NSUserNotification alloc] init];
+        [notification setTitle: _title];
+        [notification setInformativeText: _message];
+        [notification setDeliveryDate:[NSDate dateWithTimeInterval:0 sinceDate:[NSDate date]]];
+        [notification setSoundName:NSUserNotificationDefaultSoundName];
+        NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
+        [center scheduleNotification:notification];
     } else { // Growl for older OS X
         NSBundle *myBundle = [NSBundle bundleForClass:[Notification class]];
         NSString *growlPath = [[myBundle privateFrameworksPath]
