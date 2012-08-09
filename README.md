@@ -10,6 +10,7 @@ Noark supports Notification center and Growl for older OS X. Right now you can w
 Noark.notify('Title', 'Message');
 ```
 
-Support for Webkit Notifications will be added later.
+* Support for Webkit Notifications
+* Loading icon somewhere
 
 Released under MIT License.
